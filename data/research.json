@@ -1,0 +1,163 @@
+{
+  "version": "1.1.1",
+  "verified_at": "2026-09-22",
+  "currency": "USD",
+  "sources": [
+    {
+      "id": "launch",
+      "title": "Lançamento: Sol e Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+    },
+    {
+      "id": "sol",
+      "title": "Ficha técnica: GPT-6 Sol",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-sol"
+    },
+    {
+      "id": "luna",
+      "title": "Ficha técnica: GPT-6 Luna",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+    },
+    {
+      "id": "guidance",
+      "title": "Guia da família GPT-6",
+      "url": "https://developers.openai.com/api/docs/guides/latest-model"
+    },
+    {
+      "id": "cache",
+      "title": "Prompt caching e cobrança",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching"
+    },
+    {
+      "id": "responses",
+      "title": "Migração para Responses",
+      "url": "https://developers.openai.com/api/docs/guides/migrate-to-responses"
+    },
+    {
+      "id": "functions",
+      "title": "Function calling",
+      "url": "https://developers.openai.com/api/docs/guides/function-calling"
+    },
+    {
+      "id": "structured",
+      "title": "Structured Outputs",
+      "url": "https://developers.openai.com/api/docs/guides/structured-outputs"
+    },
+    {
+      "id": "search",
+      "title": "Busca web com fontes",
+      "url": "https://developers.openai.com/api/docs/guides/tools-web-search"
+    },
+    {
+      "id": "mcp",
+      "title": "Conexões MCP",
+      "url": "https://developers.openai.com/api/docs/guides/tools-connectors-mcp"
+    },
+    {
+      "id": "image",
+      "title": "GPT Image 2.5 Sunburst",
+      "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+    }
+  ],
+  "models": [
+    {
+      "id": "gpt-6-luna",
+      "label": "GPT-6 Luna",
+      "input": 0.1,
+      "cached": 0.01,
+      "write": 0.125,
+      "output": 0.5,
+      "context": 1050000,
+      "max_output": 128000,
+      "source": "luna"
+    },
+    {
+      "id": "gpt-6-sol",
+      "label": "GPT-6 Sol",
+      "input": 2,
+      "cached": 0.2,
+      "write": 2.5,
+      "output": 10,
+      "context": 1050000,
+      "max_output": 128000,
+      "source": "sol"
+    }
+  ],
+  "previous": [
+    {
+      "label": "GPT-5.6 Luna",
+      "input": 0.2,
+      "output": 1.2
+    },
+    {
+      "label": "GPT-5.6 Sol",
+      "input": 4,
+      "output": 20
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "automation",
+      "title": "AutomationBench 1.0.6",
+      "metric": "Pontuação (%) · maior é melhor",
+      "note": "Esforços diferentes. Fable usa fallback para Opus em cerca de 40% das tarefas; o custo desse fallback não foi informado. Valores reportados pela OpenAI; não reproduzidos pelo INEMA.",
+      "rows": [
+        [
+          "GPT-6 Sol · xhigh",
+          33.2
+        ],
+        [
+          "GPT-6 Astra · low",
+          30.3
+        ],
+        [
+          "Claude Opus 5 · max",
+          26.9
+        ],
+        [
+          "Claude Fable 5.1 + Opus · max",
+          31.4
+        ]
+      ],
+      "source": "launch"
+    },
+    {
+      "id": "deepswe",
+      "title": "DeepSWE v1.1",
+      "metric": "Pontuação (%) · maior é melhor",
+      "note": "Compara max com xhigh. A fonte usa Fable 5, não Fable 5.1. Não transferir diferenças deste teste para qualquer tarefa de código.",
+      "rows": [
+        [
+          "GPT-6 Sol · max",
+          68.8
+        ],
+        [
+          "GPT-6 Luna · max",
+          66.6
+        ],
+        [
+          "Claude Fable 5 · xhigh",
+          69.9
+        ]
+      ],
+      "source": "launch"
+    },
+    {
+      "id": "osworld",
+      "title": "OSWorld 2.0 offline",
+      "metric": "Recompensa parcial (%) · maior é melhor",
+      "note": "Versão v2026.08.08, conjunto offline. Esforços diferentes; não é taxa universal de sucesso em computadores.",
+      "rows": [
+        [
+          "GPT-6 Sol · xhigh",
+          60.5
+        ],
+        [
+          "Claude Opus 5 · medium",
+          60.3
+        ]
+      ],
+      "source": "launch"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+benchmark,model_effort,score_percent,source
+AutomationBench 1.0.6,GPT-6 Sol · xhigh,33.2,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+AutomationBench 1.0.6,GPT-6 Astra · low,30.3,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+AutomationBench 1.0.6,Claude Opus 5 · max,26.9,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+AutomationBench 1.0.6,Claude Fable 5.1 + Opus · max,31.4,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+DeepSWE v1.1,GPT-6 Sol · max,68.8,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+DeepSWE v1.1,GPT-6 Luna · max,66.6,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+DeepSWE v1.1,Claude Fable 5 · xhigh,69.9,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+OSWorld 2.0 offline,GPT-6 Sol · xhigh,60.5,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+OSWorld 2.0 offline,Claude Opus 5 · medium,60.3,https://openai.com/index/introducing-gpt-6-sol-and-luna/
