@@ -100,7 +100,7 @@
       "id": "automation",
       "title": "AutomationBench 1.0.6",
       "metric": "Pontuação (%) · maior é melhor",
-      "note": "Esforços diferentes. Fable usa fallback para Opus em cerca de 40% das tarefas; o custo desse fallback não foi informado. Valores reportados pela OpenAI; não reproduzidos pelo INEMA.",
+      "note": "Esforços diferentes. Fable usa fallback para Opus em cerca de 40% das tarefas; o custo desse fallback não foi informado. Valores reportados pela OpenAI; não reproduzidos pelo ARCKHÉ.",
       "rows": [
         [
           "GPT-6 Sol · xhigh",

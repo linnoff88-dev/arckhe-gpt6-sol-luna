@@ -1,4 +1,4 @@
-﻿# GPT-6 Sol & Luna â€” ObservatÃ³rio INEMA
+# GPT-6 Sol & Luna â€” ObservatÃ³rio ARCKHÉ
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -8,15 +8,15 @@
 
 Pesquisa do lanÃ§amento de 22/09/2026, comparaÃ§Ãµes e planejamento de integraÃ§Ã£o.
 
-**[Abrir guia e simulador](https://inematds.github.io/gpt6-sol-luna/guia/)**
+**[Abrir guia e simulador](https://linnoff88-dev.github.io/
 
-**Idiomas:** [PortuguÃªs](https://inematds.github.io/gpt6-sol-luna/guia/) Â· [English](https://inematds.github.io/gpt6-sol-luna/guia/en/) Â· [EspaÃ±ol](https://inematds.github.io/gpt6-sol-luna/guia/es/)
+**Idiomas:** [PortuguÃªs](https://linnoff88-dev.github.io/ Â· [English](https://linnoff88-dev.github.io/ Â· [EspaÃ±ol](https://linnoff88-dev.github.io/
 
 ![Capa GPT-6 Sol e Luna](capa/capa.png)
 
 ## Entregas
 
-- AnÃ¡lise em portuguÃªs, inglÃªs e espanhol com 11 referÃªncias oficiais e recomendaÃ§Ãµes INEMA identificadas.
+- AnÃ¡lise em portuguÃªs, inglÃªs e espanhol com 11 referÃªncias oficiais e recomendaÃ§Ãµes ARCKHÉ identificadas.
 - GrÃ¡fico de preÃ§os e trÃªs avaliaÃ§Ãµes selecionÃ¡veis, com esforÃ§o e metodologia.
 - Calculadora de texto: entrada comum, leitura/gravaÃ§Ã£o de cache, contexto longo, modalidade e roteamento/revisÃ£o.
 - Gerador local de JSON para Responses; nÃ£o envia requisiÃ§Ãµes.

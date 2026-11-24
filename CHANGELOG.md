@@ -10,4 +10,4 @@ Alias da capa em guia/capa/capa.png para o caminho derivado pelo catálogo PRO.
 
 ## 1.0.0 — 2026-09-22
 
-Observatório com pesquisa, dados, capa Codex, gráficos, calculadora e plano de integração INEMA.
+Observatório com pesquisa, dados, capa Codex, gráficos, calculadora e plano de integração ARCKHÉ.

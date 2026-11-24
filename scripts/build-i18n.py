@@ -3,7 +3,7 @@
 from pathlib import Path
 import copy, html, json, re
 ROOT=Path(__file__).resolve().parents[1]
-BASE='https://inematds.github.io/gpt6-sol-luna/guia/'
+BASE='https://linnoff88-dev.github.io/
 SOURCE=json.loads((ROOT/'i18n/source/pt.json').read_text())
 DATA=json.loads((ROOT/'data/research.json').read_text())
 TEMPLATE=(ROOT/'i18n/source/pt.html').read_text()
