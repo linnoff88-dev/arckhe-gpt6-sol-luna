@@ -6,7 +6,7 @@ const root=path.resolve(import.meta.dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const source=JSON.parse(read('i18n/source/pt.json'));
 const data=JSON.parse(read('data/research.json'));
-const base='https://inematds.github.io/gpt6-sol-luna/guia/';
+const base='https://linnoff88-dev.github.io/arckhe-/guia/';
 let originalEstimate;
 for(const [lang,route,locale] of [['pt','','pt-BR'],['en','en/','en-US'],['es','es/','es-ES']]){
  const html=read(`guia/${route}index.html`);
