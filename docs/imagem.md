@@ -1,8 +1,8 @@
 # Imagem de destaque
 
-Ferramenta: geração de imagem embutida do Codex (`image_gen`). Pedido do usuário: Codex Image 2.5. A ferramenta não possui seletor de modelo; o prompt preservou o pedido. O retorno não identifica a versão. Metadados do arquivo identificam `gpt-image`, sem subversão.
+Ferramenta: geraçêo de imagem embutida do Codex (`image_gen`). Pedido do usuário: Codex Image 2.5. A ferramenta nêo possui seletor de modelo; o prompt preservou o pedido. O retorno nêo identifica a versêo. Metadados do arquivo identificam `gpt-image`, sem subversêo.
 
-Original: `guia/assets/hero.png`. Capa: `capa/capa.png` (mesma arte). Derivado WebP de exibição: `guia/assets/hero.webp`. Dimensões: 1536 × 1024. Nenhuma afirmação de benchmark está incorporada à imagem.
+Original: `guia/assets/hero.png`. Capa: `capa/capa.png` (mesma arte). Derivado WebP de exibiçêo: `guia/assets/hero.webp`. Dimensões: 1536 × 1024. Nenhuma afirmaçêo de benchmark está incorporada à imagem.
 
 ## Prompt final
 

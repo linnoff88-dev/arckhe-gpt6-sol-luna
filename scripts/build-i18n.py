@@ -35,7 +35,7 @@ def render(lang):
             chunk=re.sub(r'const DATA=[^\n]+;',lambda _: 'const DATA='+json.dumps(data,ensure_ascii=False)+';',chunk,count=1)
             # Only replace display strings, preserving keys, IDs, URLs and executable logic.
             chunk=re.sub(r"'([^'\\]*(?:\\.[^'\\]*)*)'",lambda m:json.dumps(translations[m[1]],ensure_ascii=False) if m[1] in translations else m[0],chunk)
-            for value in ['Estimativa mensal. ',' Diferença do cenário misto frente a só Sol: ','. Não inclui ferramentas.']:
+            for value in ['Estimativa mensal. ',' Diferença do cenário misto frente a só Sol: ','. Nêo inclui ferramentas.']:
                 chunk=chunk.replace(value,translate(value))
             chunk=chunk.replace("'pt-BR'",repr(LOCALES[lang]))
             chunk=chunk.replace("'campo,valor\\n'", "'field,value\\n'") # stable machine-readable CSV schema

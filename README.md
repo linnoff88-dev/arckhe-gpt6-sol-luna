@@ -1,4 +1,4 @@
-# GPT-6 Sol & Luna â€” ObservatÃ³rio ARCKHÉ
+# GPT-6 Sol & Luna ê¢â¬â ObservatêÂ³rio ARCKHê
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,22 +6,22 @@
 </div>
 
 
-Pesquisa do lanÃ§amento de 22/09/2026, comparaÃ§Ãµes e planejamento de integraÃ§Ã£o.
+Pesquisa do lanêÂ§amento de 22/09/2026, comparaêÂ§êÂµes e planejamento de integraêÂ§êÂ£o.
 
 **[Abrir guia e simulador](https://linnoff88-dev.github.io/
 
-**Idiomas:** [PortuguÃªs](https://linnoff88-dev.github.io/ Â· [English](https://linnoff88-dev.github.io/ Â· [EspaÃ±ol](https://linnoff88-dev.github.io/
+**Idiomas:** [PortuguêÂªs](https://linnoff88-dev.github.io/ êÂ· [English](https://linnoff88-dev.github.io/ êÂ· [EspaêÂ±ol](https://linnoff88-dev.github.io/
 
 ![Capa GPT-6 Sol e Luna](capa/capa.png)
 
 ## Entregas
 
-- AnÃ¡lise em portuguÃªs, inglÃªs e espanhol com 11 referÃªncias oficiais e recomendaÃ§Ãµes ARCKHÉ identificadas.
-- GrÃ¡fico de preÃ§os e trÃªs avaliaÃ§Ãµes selecionÃ¡veis, com esforÃ§o e metodologia.
-- Calculadora de texto: entrada comum, leitura/gravaÃ§Ã£o de cache, contexto longo, modalidade e roteamento/revisÃ£o.
-- Gerador local de JSON para Responses; nÃ£o envia requisiÃ§Ãµes.
-- Plano para atendimento, busca, bots, conteÃºdo, WebMCP e mÃ­dia.
-- Dados editÃ¡veis em `data/research.json` e exportaÃ§Ãµes CSV.
+- AnêÂ¡lise em portuguêÂªs, inglêÂªs e espanhol com 11 referêÂªncias oficiais e recomendaêÂ§êÂµes ARCKHê identificadas.
+- GrêÂ¡fico de preêÂ§os e trêÂªs avaliaêÂ§êÂµes selecionêÂ¡veis, com esforêÂ§o e metodologia.
+- Calculadora de texto: entrada comum, leitura/gravaêÂ§êÂ£o de cache, contexto longo, modalidade e roteamento/revisêÂ£o.
+- Gerador local de JSON para Responses; nêÂ£o envia requisiêÂ§êÂµes.
+- Plano para atendimento, busca, bots, conteêÂºdo, WebMCP e mêÂ­dia.
+- Dados editêÂ¡veis em `data/research.json` e exportaêÂ§êÂµes CSV.
 
 ## Executar
 
@@ -31,28 +31,28 @@ python3 -m http.server 8080
 node scripts/verify.mjs
 ```
 
-HTML/CSS/JavaScript sem build ou dependÃªncias de runtime. Fontes Google tÃªm fallback local. Nenhuma chave de API Ã© necessÃ¡ria. O conteÃºdo de `data/research.json` tambÃ©m estÃ¡ embutido no HTML para funcionar sem fetch; o verificador acusa divergÃªncias.
+HTML/CSS/JavaScript sem build ou dependêÂªncias de runtime. Fontes Google têÂªm fallback local. Nenhuma chave de API êÂ© necessêÂ¡ria. O conteêÂºdo de `data/research.json` tambêÂ©m estêÂ¡ embutido no HTML para funcionar sem fetch; o verificador acusa divergêÂªncias.
 
 ## Limites
 
-Os benchmarks sÃ£o publicados pela OpenAI, nÃ£o reproduzidos neste projeto. O simulador estima custo de tokens; nÃ£o mede qualidade nem latÃªncia, nem inclui ferramentas e mÃ­dia. Exemplos de API foram revisados contra documentaÃ§Ã£o, mas nÃ£o executados com uma chave. Nenhuma integraÃ§Ã£o de produÃ§Ã£o foi ativada.
+Os benchmarks sêÂ£o publicados pela OpenAI, nêÂ£o reproduzidos neste projeto. O simulador estima custo de tokens; nêÂ£o mede qualidade nem latêÂªncia, nem inclui ferramentas e mêÂ­dia. Exemplos de API foram revisados contra documentaêÂ§êÂ£o, mas nêÂ£o executados com uma chave. Nenhuma integraêÂ§êÂ£o de produêÂ§êÂ£o foi ativada.
 
-Capa gerada na ferramenta de imagem embutida do Codex, com pedido de GPT Image 2.5; o retorno e os metadados nÃ£o expÃµem a subversÃ£o. NÃ£o Ã© possÃ­vel certificar 2.5. Prompt e proveniÃªncia em [docs/imagem.md](docs/imagem.md).
+Capa gerada na ferramenta de imagem embutida do Codex, com pedido de GPT Image 2.5; o retorno e os metadados nêÂ£o expêÂµem a subversêÂ£o. NêÂ£o êÂ© possêÂ­vel certificar 2.5. Prompt e proveniêÂªncia em [docs/imagem.md](docs/imagem.md).
 
-VersÃ£o: **1.1.1**. Pesquisa consultada em **2026-09-22**.
+VersêÂ£o: **1.1.1**. Pesquisa consultada em **2026-09-22**.
 
-## ManutenÃ§Ã£o multilÃ­ngue
+## ManutenêÂ§êÂ£o multilêÂ­ngue
 
-Fonte editorial: `i18n/source/pt.html`; textos e traduÃ§Ãµes revisadas em `i18n/source/pt.json` e `i18n/translations/{en,es}.json`. Chaves sÃ£o hashes do texto original; textos novos exigem traduÃ§Ã£o explÃ­cita. NÃ£o editar as pÃ¡ginas geradas diretamente.
+Fonte editorial: `i18n/source/pt.html`; textos e traduêÂ§êÂµes revisadas em `i18n/source/pt.json` e `i18n/translations/{en,es}.json`. Chaves sêÂ£o hashes do texto original; textos novos exigem traduêÂ§êÂ£o explêÂ­cita. NêÂ£o editar as pêÂ¡ginas geradas diretamente.
 
 ```sh
 python3 scripts/build-i18n.py
 node scripts/verify.mjs
 ```
 
-O gerador compartilha estrutura, lÃ³gica e imagens. Traduz conteÃºdo, acessibilidade, metadados, notas dos grÃ¡ficos, validaÃ§Ãµes e exemplos. MantÃ©m os IDs de modelos, endpoints, chaves JSON e valores de benchmark. A troca de idioma preserva a seÃ§Ã£o e os campos do simulador na mesma aba. A URL determina o idioma; nÃ£o hÃ¡ redirecionamento automÃ¡tico.
+O gerador compartilha estrutura, lêÂ³gica e imagens. Traduz conteêÂºdo, acessibilidade, metadados, notas dos grêÂ¡ficos, validaêÂ§êÂµes e exemplos. MantêÂ©m os IDs de modelos, endpoints, chaves JSON e valores de benchmark. A troca de idioma preserva a seêÂ§êÂ£o e os campos do simulador na mesma aba. A URL determina o idioma; nêÂ£o hêÂ¡ redirecionamento automêÂ¡tico.
 
-As exportaÃ§Ãµes de dados usam identificadores estÃ¡veis; o README e os documentos tÃ©cnicos do repositÃ³rio permanecem em portuguÃªs. A traduÃ§Ã£o nÃ£o atualiza a pesquisa original de 22/09/2026. Nenhuma API de traduÃ§Ã£o foi chamada: custo de API de traduÃ§Ã£o US$ 0; consumo do agente nÃ£o medido.
+As exportaêÂ§êÂµes de dados usam identificadores estêÂ¡veis; o README e os documentos têÂ©cnicos do repositêÂ³rio permanecem em portuguêÂªs. A traduêÂ§êÂ£o nêÂ£o atualiza a pesquisa original de 22/09/2026. Nenhuma API de traduêÂ§êÂ£o foi chamada: custo de API de traduêÂ§êÂ£o US$ 0; consumo do agente nêÂ£o medido.
 
 ---
 

@@ -30,7 +30,7 @@
     },
     {
       "id": "responses",
-      "title": "Migração para Responses",
+      "title": "Migraçêo para Responses",
       "url": "https://developers.openai.com/api/docs/guides/migrate-to-responses"
     },
     {
@@ -99,8 +99,8 @@
     {
       "id": "automation",
       "title": "AutomationBench 1.0.6",
-      "metric": "Pontuação (%) · maior é melhor",
-      "note": "Esforços diferentes. Fable usa fallback para Opus em cerca de 40% das tarefas; o custo desse fallback não foi informado. Valores reportados pela OpenAI; não reproduzidos pelo ARCKHÉ.",
+      "metric": "Pontuaçêo (%) · maior é melhor",
+      "note": "Esforços diferentes. Fable usa fallback para Opus em cerca de 40% das tarefas; o custo desse fallback nêo foi informado. Valores reportados pela OpenAI; nêo reproduzidos pelo ARCKHÉ.",
       "rows": [
         [
           "GPT-6 Sol · xhigh",
@@ -124,8 +124,8 @@
     {
       "id": "deepswe",
       "title": "DeepSWE v1.1",
-      "metric": "Pontuação (%) · maior é melhor",
-      "note": "Compara max com xhigh. A fonte usa Fable 5, não Fable 5.1. Não transferir diferenças deste teste para qualquer tarefa de código.",
+      "metric": "Pontuaçêo (%) · maior é melhor",
+      "note": "Compara max com xhigh. A fonte usa Fable 5, nêo Fable 5.1. Nêo transferir diferenças deste teste para qualquer tarefa de código.",
       "rows": [
         [
           "GPT-6 Sol · max",
@@ -146,7 +146,7 @@
       "id": "osworld",
       "title": "OSWorld 2.0 offline",
       "metric": "Recompensa parcial (%) · maior é melhor",
-      "note": "Versão v2026.08.08, conjunto offline. Esforços diferentes; não é taxa universal de sucesso em computadores.",
+      "note": "Versêo v2026.08.08, conjunto offline. Esforços diferentes; nêo é taxa universal de sucesso em computadores.",
       "rows": [
         [
           "GPT-6 Sol · xhigh",
